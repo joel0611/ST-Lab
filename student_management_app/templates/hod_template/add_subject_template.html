@@ -23,7 +23,6 @@
                     <form role="form" method="POST" action="{% url 'add_subject_save' %}">
                         {% csrf_token %}
 
-                        
                                 {% comment %} Display Messages {% endcomment %}
                                 {% if messages %}
                                 <div class="form-group">
